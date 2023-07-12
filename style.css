@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+h1 {
+    background-color: deeppink;
+    font-size: xx-large;
+    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    border: 30px;
+    border-color: blueviolet;
+}
+
+.texto {
+    background-color: bisque;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+
+}
+.encabezado{
+display: grid;
+grid-template-areas: "navlog" ;
+background-color: red;
+
+}
+.menu {
+    font-size: x-large;
+    width: 1fr;
+    height: 100px;
+    border: 50px; 
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    background-color: blueviolet;
+
+}
+.menu li a {
+    text-decoration: none;
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: red;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
